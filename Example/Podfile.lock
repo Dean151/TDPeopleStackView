@@ -1,0 +1,16 @@
+PODS:
+  - TDPeopleStackView (0.1.0)
+
+DEPENDENCIES:
+  - TDPeopleStackView (from `../`)
+
+EXTERNAL SOURCES:
+  TDPeopleStackView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TDPeopleStackView: 83c70dd40456bf492210cf8d63766083d2888100
+
+PODFILE CHECKSUM: a43a6b112b311e40b6fe8b1652dd96c25eb0dac6
+
+COCOAPODS: 1.0.0.rc.1

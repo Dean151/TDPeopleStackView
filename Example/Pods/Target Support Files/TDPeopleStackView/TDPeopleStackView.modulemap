@@ -1,0 +1,6 @@
+framework module TDPeopleStackView {
+  umbrella header "TDPeopleStackView-umbrella.h"
+
+  export *
+  module * { export * }
+}

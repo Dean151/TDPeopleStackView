@@ -1,11 +1,9 @@
 use_frameworks!
 
-target 'TDPeopleStackView_Example', :exclusive => true do
+target 'TDPeopleStackView_Example'do
   pod 'TDPeopleStackView', :path => '../'
 end
 
-target 'TDPeopleStackView_Tests', :exclusive => true do
+target 'TDPeopleStackView_Tests' do
   pod 'TDPeopleStackView', :path => '../'
-
-  
 end

@@ -13,6 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6F4679F4CE11C67C06048BAC /* Pods_TDPeopleStackView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FB8666D6E63032737CCA3A /* Pods_TDPeopleStackView_Example.framework */; };
+		C8013257EA32ED31FC44C38D /* Pods_TDPeopleStackView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6754A66971A4827DD543489F /* Pods_TDPeopleStackView_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15FB8666D6E63032737CCA3A /* Pods_TDPeopleStackView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDPeopleStackView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TDPeopleStackView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDPeopleStackView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,9 +39,14 @@
 		607FACE51AFB9204008FA782 /* TDPeopleStackView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDPeopleStackView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		764D98F97A15647641D32ED5 /* TDPeopleStackView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = TDPeopleStackView.podspec; path = ../TDPeopleStackView.podspec; sourceTree = "<group>"; };
-		9144CA1893C34341FE0831AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6754A66971A4827DD543489F /* Pods_TDPeopleStackView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDPeopleStackView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		676CC94F39312370506C9D90 /* Pods-TDPeopleStackView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDPeopleStackView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDPeopleStackView_Tests/Pods-TDPeopleStackView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		764D98F97A15647641D32ED5 /* TDPeopleStackView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TDPeopleStackView.podspec; path = ../TDPeopleStackView.podspec; sourceTree = "<group>"; };
+		8DC92AA06AE58C27C729EAE2 /* Pods-TDPeopleStackView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDPeopleStackView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDPeopleStackView_Tests/Pods-TDPeopleStackView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9144CA1893C34341FE0831AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CAEF1CF85D3C10467DECAC56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DA420E264C70ACBA0B84AD20 /* Pods-TDPeopleStackView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDPeopleStackView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDPeopleStackView_Example/Pods-TDPeopleStackView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DED048070204B763E81184ED /* Pods-TDPeopleStackView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDPeopleStackView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDPeopleStackView_Example/Pods-TDPeopleStackView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F4679F4CE11C67C06048BAC /* Pods_TDPeopleStackView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,12 +62,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8013257EA32ED31FC44C38D /* Pods_TDPeopleStackView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B5D21BC1C52D60D0E1C6BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FB8666D6E63032737CCA3A /* Pods_TDPeopleStackView_Example.framework */,
+				6754A66971A4827DD543489F /* Pods_TDPeopleStackView_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +85,8 @@
 				607FACD21AFB9204008FA782 /* Example for TDPeopleStackView */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
+				D9BE75E77CD87D978C140686 /* Pods */,
+				4B5D21BC1C52D60D0E1C6BAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +148,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		D9BE75E77CD87D978C140686 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA420E264C70ACBA0B84AD20 /* Pods-TDPeopleStackView_Example.debug.xcconfig */,
+				DED048070204B763E81184ED /* Pods-TDPeopleStackView_Example.release.xcconfig */,
+				8DC92AA06AE58C27C729EAE2 /* Pods-TDPeopleStackView_Tests.debug.xcconfig */,
+				676CC94F39312370506C9D90 /* Pods-TDPeopleStackView_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TDPeopleStackView_Example" */;
 			buildPhases = (
+				07C9E97978F284EB5C73CE26 /* 📦 Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				7A4C71ECDDFEA96D9328985A /* 📦 Embed Pods Frameworks */,
+				8581FB3F6F82CE72780500B2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TDPeopleStackView_Tests" */;
 			buildPhases = (
+				16651634C3ACF975516DE12D /* 📦 Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				CD22341B8483C98EB084329E /* 📦 Embed Pods Frameworks */,
+				EF919A6E31A7930030F4027E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TDPeopleStackView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,6 +260,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07C9E97978F284EB5C73CE26 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		16651634C3ACF975516DE12D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A4C71ECDDFEA96D9328985A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDPeopleStackView_Example/Pods-TDPeopleStackView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8581FB3F6F82CE72780500B2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDPeopleStackView_Example/Pods-TDPeopleStackView_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD22341B8483C98EB084329E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDPeopleStackView_Tests/Pods-TDPeopleStackView_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF919A6E31A7930030F4027E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDPeopleStackView_Tests/Pods-TDPeopleStackView_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
@@ -308,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -355,6 +486,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA420E264C70ACBA0B84AD20 /* Pods-TDPeopleStackView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TDPeopleStackView/Info.plist;
@@ -367,6 +499,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED048070204B763E81184ED /* Pods-TDPeopleStackView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TDPeopleStackView/Info.plist;
@@ -379,6 +512,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC92AA06AE58C27C729EAE2 /* Pods-TDPeopleStackView_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -397,6 +531,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676CC94F39312370506C9D90 /* Pods-TDPeopleStackView_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -412,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TDPeopleStackView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,

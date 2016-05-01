@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yRa-Rv-bXZ">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--People Stack View-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="TDPeopleStackView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +17,83 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My meeting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJT-un-cwg">
+                                <rect key="frame" x="20" y="72" width="560" height="32.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Persons involved :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpa-7w-eDU">
+                                <rect key="frame" x="20" y="112.5" width="560" height="25.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z0Q-iE-UY5" customClass="TDPeopleStackView" customModule="TDPeopleStackView">
+                                <rect key="frame" x="20" y="146" width="560" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="fOe-pD-8jA"/>
+                                </constraints>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhG-mS-XUu">
+                                <rect key="frame" x="20" y="214" width="560" height="386"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="rhG-mS-XUu" secondAttribute="trailing" id="0Z6-0S-ABx"/>
+                            <constraint firstItem="rJT-un-cwg" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="5mK-AS-fI0"/>
+                            <constraint firstItem="rhG-mS-XUu" firstAttribute="top" secondItem="Z0Q-iE-UY5" secondAttribute="bottom" constant="8" id="JXL-4A-K4n"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zpa-7w-eDU" secondAttribute="trailing" id="Tz4-dQ-JZP"/>
+                            <constraint firstItem="zpa-7w-eDU" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="ZUu-oU-f3r"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rJT-un-cwg" secondAttribute="trailing" id="esb-IR-907"/>
+                            <constraint firstItem="rhG-mS-XUu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="fQc-pM-0kP"/>
+                            <constraint firstItem="zpa-7w-eDU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="hPu-Nu-6r9"/>
+                            <constraint firstItem="rJT-un-cwg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ma6-Qy-zT7"/>
+                            <constraint firstItem="Z0Q-iE-UY5" firstAttribute="top" secondItem="zpa-7w-eDU" secondAttribute="bottom" constant="8" id="rKw-QQ-iDQ"/>
+                            <constraint firstItem="zpa-7w-eDU" firstAttribute="top" secondItem="rJT-un-cwg" secondAttribute="bottom" constant="8" id="uh5-QF-c1g"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="rhG-mS-XUu" secondAttribute="bottom" id="vwt-J6-MEA"/>
+                            <constraint firstItem="Z0Q-iE-UY5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="vxQ-5E-7XM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Z0Q-iE-UY5" secondAttribute="trailing" id="yWq-xi-JNb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ZUu-oU-f3r"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" title="People Stack View" id="Coc-lg-isW"/>
+                    <connections>
+                        <outlet property="peopleStackView" destination="Z0Q-iE-UY5" id="ffe-Wn-aMa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1245" y="1095"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0vv-gd-vhY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yRa-Rv-bXZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NX1-Fk-Kik">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="foz-4Z-gHH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DFc-pq-JVr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445" y="1095"/>
         </scene>
     </scenes>
 </document>

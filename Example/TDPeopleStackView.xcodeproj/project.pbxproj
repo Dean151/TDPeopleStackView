@@ -86,7 +86,6 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				D9BE75E77CD87D978C140686 /* Pods */,
-				4B5D21BC1C52D60D0E1C6BAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +150,7 @@
 		D9BE75E77CD87D978C140686 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				4B5D21BC1C52D60D0E1C6BAD /* Frameworks */,
 				DA420E264C70ACBA0B84AD20 /* Pods-TDPeopleStackView_Example.debug.xcconfig */,
 				DED048070204B763E81184ED /* Pods-TDPeopleStackView_Example.release.xcconfig */,
 				8DC92AA06AE58C27C729EAE2 /* Pods-TDPeopleStackView_Tests.debug.xcconfig */,
@@ -514,10 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8DC92AA06AE58C27C729EAE2 /* Pods-TDPeopleStackView_Tests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -533,10 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 676CC94F39312370506C9D90 /* Pods-TDPeopleStackView_Tests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TDPeopleStackView_Example', :exclusive => true do
+  pod 'TDPeopleStackView', :path => '../'
+end
+
+target 'TDPeopleStackView_Tests', :exclusive => true do
+  pod 'TDPeopleStackView', :path => '../'
+
+  
+end

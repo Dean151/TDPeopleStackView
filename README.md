@@ -2,8 +2,11 @@
 
 [![CI Status](http://img.shields.io/travis/Dean151/TDPeopleStackView.svg?style=flat)](https://travis-ci.org/Dean151/TDPeopleStackView)
 [![Version](https://img.shields.io/cocoapods/v/TDPeopleStackView.svg?style=flat)](http://cocoapods.org/pods/TDPeopleStackView)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/TDPeopleStackView.svg?style=flat)](http://cocoapods.org/pods/TDPeopleStackView)
 [![Platform](https://img.shields.io/cocoapods/p/TDPeopleStackView.svg?style=flat)](http://cocoapods.org/pods/TDPeopleStackView)
+
+![screenshot](https://raw.githubusercontent.com/Dean151/TDPeopleStackView/master/Screenshots/small.png)
 
 ## Example
 

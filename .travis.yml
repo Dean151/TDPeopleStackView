@@ -1,13 +1,19 @@
-# references:
-# * http://www.objc.io/issue-6/travis-ci.html
-# * https://github.com/supermarin/xcpretty#usage
-
 language: objective-c
-# cache: cocoapods
-# podfile: Example/Podfile
-# before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
-# - pod install --project-directory=Example
-script:
-- set -o pipefail && xcodebuild test -workspace Example/TDPeopleStackView.xcworkspace -scheme TDPeopleStackView-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+osx_image: xcode7.3
+# xcode_project: <PROJECT_PLACEHOLDER>
+xcode_workspace: Example/TDPeopleStackView.xcworkspace
+xcode_scheme: TDPeopleStackView
+xcode_sdk: iphonesimulator9.3
+env:
+  global:
+    - FRAMEWORK_NAME=TDPeopleStackView
+before_install:
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+# before_script:
+  # bootstrap the dependencies for the project
+  # you can remove if you don't have dependencies
+  # - carthage bootstrap
+before_deploy:
+  - carthage build --no-skip-current
+  - carthage archive $FRAMEWORK_NAME
